@@ -1,0 +1,16 @@
+            SPELL=glibc
+          VERSION=2.38
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+          SOURCE2=glibc-2.38-memalign_fix-1.patch
+          SOURCE3=glibc-2.38-fhs-1.patch
+          SOURCE4=tzdata2023c.tar.gz
+    SOURCE_URL[0]=https://ftp.gnu.org/gnu/${SPELL}/${SOURCE}
+   SOURCE2_URL[0]=https://www.linuxfromscratch.org/patches/lfs/12.0/${SOURCE2}
+   SOURCE3_URL[0]=https://www.linuxfromscratch.org/patches/lfs/12.0/${SOURCE3}
+   SOURCE4_URL[0]=https://www.iana.org/time-zones/repository/releases/${SOURCE4}
+      SOURCE_HASH=md5:778cce0ea6bf7f84ca8caacf4a01f45b:UPSTREAM_HASH
+     SOURCE2_HASH=md5:2c3552bded42a83ad6a7087c5fbf3857:UPSTREAM_HASH
+     SOURCE3_HASH=md5:9a5997c3452909b1769918c759eff8a2:UPSTREAM_HASH
+     SOURCE4_HASH=md5:5aa672bf129b44dd915f8232de38e49a:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

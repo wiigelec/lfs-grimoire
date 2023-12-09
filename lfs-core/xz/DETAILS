@@ -1,0 +1,7 @@
+            SPELL=xz
+          VERSION=5.4.4
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://tukaani.org/${SPELL}/${SOURCE}
+      SOURCE_HASH=md5:d83d6f64a64f88759e312b8a38c3add6:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

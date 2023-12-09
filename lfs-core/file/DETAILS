@@ -1,0 +1,7 @@
+            SPELL=file
+          VERSION=5.45
+           SOURCE=${SPELL}-${VERSION}.tar.gz
+    SOURCE_URL[0]=https://astron.com/pub/${SPELL}/${SOURCE}
+      SOURCE_HASH=md5:26b2a96d4e3a8938827a1e572afd527a:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

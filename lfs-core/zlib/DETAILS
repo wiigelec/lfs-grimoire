@@ -1,0 +1,7 @@
+            SPELL=zlib
+          VERSION=1.2.13
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://anduin.linuxfromscratch.org/LFS/${SOURCE}
+      SOURCE_HASH=md5:7d9fc1d78ae2fa3e84fe98b77d006c63:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

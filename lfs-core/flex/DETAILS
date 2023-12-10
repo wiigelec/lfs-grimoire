@@ -1,0 +1,7 @@
+            SPELL=flex
+          VERSION=2.6.4
+           SOURCE=${SPELL}-${VERSION}.tar.gz
+    SOURCE_URL[0]=https://github.com/westes/${SPELL}/releases/download/v${VERSION}/${SOURCE}
+      SOURCE_HASH=md5:2882e3179748cc9f9c23ec593d6adc8d:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

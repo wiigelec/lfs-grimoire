@@ -1,0 +1,7 @@
+            SPELL=mpfr
+          VERSION=4.2.0
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://ftp.gnu.org/gnu/${SPELL}/${SOURCE}
+      SOURCE_HASH=md5:a25091f337f25830c16d2054d74b5af7:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

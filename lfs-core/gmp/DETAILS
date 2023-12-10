@@ -1,0 +1,7 @@
+            SPELL=gmp
+          VERSION=6.3.0
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://ftp.gnu.org/gnu/${SPELL}/${SOURCE}
+      SOURCE_HASH=md5:956dc04e864001a9c22429f761f2c283:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

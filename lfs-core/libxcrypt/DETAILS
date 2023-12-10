@@ -1,0 +1,7 @@
+            SPELL=libxcrypt
+          VERSION=4.4.36
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://github.com/besser82/${SPELL}/releases/download/v${VERSION}/${SOURCE}
+      SOURCE_HASH=md5:b84cd4104e08c975063ec6c4d0372446:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

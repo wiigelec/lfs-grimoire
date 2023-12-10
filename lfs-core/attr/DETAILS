@@ -1,0 +1,7 @@
+            SPELL=attr
+          VERSION=2.5.1
+           SOURCE=${SPELL}-${VERSION}.tar.gz
+    SOURCE_URL[0]=https://download.savannah.gnu.org/releases/${SPELL}/${SOURCE}
+      SOURCE_HASH=md5:ac1c5a7a084f0f83b8cace34211f64d8:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

@@ -1,0 +1,7 @@
+            SPELL=expect
+          VERSION=5.45.4
+           SOURCE=${SPELL}${VERSION}.tar.gz
+    SOURCE_URL[0]=https://prdownloads.sourceforge.net/${SPELL}/${SOURCE}
+      SOURCE_HASH=md5:00fce8de158422f5ccd2666512329bd2:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}${VERSION}"
+          ENTERED=20231209

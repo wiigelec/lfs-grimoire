@@ -1,0 +1,7 @@
+            SPELL=m4
+          VERSION=1.4.19
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://ftp.gnu.org/gnu/${SPELL}/${SOURCE}
+      SOURCE_HASH=md5:0d90823e1426f1da2fd872df0311298d:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

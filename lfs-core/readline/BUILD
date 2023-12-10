@@ -1,0 +1,17 @@
+####################################################################
+#
+#
+#
+####################################################################
+
+sed -i '/MV.*old/d' Makefile.in
+sed -i '/{OLDSUFF}/c:' support/shlib-install
+
+patch -Np1 -i ${SOURCE_CACHE}/readline-8.2-upstream_fix-1.patch
+
+./configure --prefix=/usr    \
+            --disable-static \
+            --with-curses    \
+            --docdir=/usr/share/doc/readline-8.2
+
+make SHLIB_LIBS="-lncursesw"

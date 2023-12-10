@@ -1,0 +1,10 @@
+            SPELL=readline
+          VERSION=8.2
+           SOURCE=${SPELL}-${VERSION}.tar.gz
+          SOURCE2=readline-8.2-upstream_fix-1.patch
+    SOURCE_URL[0]=https://ftp.gnu.org/gnu/${SPELL}/${SOURCE}
+   SOURCE_URL2[0]=https://www.linuxfromscratch.org/patches/lfs/12.0/readline-8.2-upstream_fix-1.patch
+      SOURCE_HASH=md5:4aa1b31be779e6b84f9a96cb66bc50f6:UPSTREAM_HASH
+     SOURCE_HASH2=md5:dd1764b84cfca6b677f44978218a75da:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

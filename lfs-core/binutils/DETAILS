@@ -1,0 +1,7 @@
+            SPELL=binutils
+          VERSION=2.41
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://sourceware.org/pub/${SPELL}/releases/${SOURCE}
+      SOURCE_HASH=md5:256d7e0ad998e423030c84483a7c1e30:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

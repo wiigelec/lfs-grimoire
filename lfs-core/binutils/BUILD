@@ -1,0 +1,27 @@
+####################################################################
+#
+#
+#
+####################################################################
+
+####################################################################
+# BUILD
+
+mkdir -v build
+cd       build
+
+../configure --prefix=/usr       \
+             --sysconfdir=/etc   \
+             --enable-gold       \
+             --enable-ld=default \
+             --enable-plugins    \
+             --enable-shared     \
+             --disable-werror    \
+             --enable-64-bit-bfd \
+             --with-system-zlib
+
+make tooldir=/usr
+
+#make -k check
+
+#grep '^FAIL:' $(find -name '*.log')

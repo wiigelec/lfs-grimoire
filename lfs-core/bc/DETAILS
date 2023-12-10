@@ -1,0 +1,7 @@
+            SPELL=bc
+          VERSION=6.6.0
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://github.com/gavinhoward/bc/releases/download/${VERSION}/${SOURCE}
+      SOURCE_HASH=md5:a148cbaaf8ff813b7289a00539e74a5f:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

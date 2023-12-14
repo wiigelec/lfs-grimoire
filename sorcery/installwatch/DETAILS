@@ -1,0 +1,23 @@
+            SPELL=installwatch
+          VERSION=0.9.2
+#      PATCHLEVEL=1 # Optional if 0
+#  SECURITY_PATCH=0 # Optional if 0
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+#         SOURCE2=${SOURCE}.asc
+    SOURCE_URL[0]=https://mirror.sobukus.de/files/sourcemage/distro/misc/${SOURCE}
+#   SOURCE_URL[1]=http://backup.example.com/dir/misc/${SOURCE}
+#  SOURCE2_URL[0]=http://example.com/dir/misc/${SOURCE2}
+#  SOURCE2_URL[1]=http://backup.example.com/dir/misc/${SOURCE2}
+#  SOURCE1_IGNORE=signature
+#  SOURCE2_IGNORE=signature
+#      SOURCE_GPG="name.gpg:${SOURCE2}:VERIFIED_UPSTREAM_KEY"
+      SOURCE_HASH=sha512:e1e49311e70caebbc1266bf22f43c9e8b72c5912d4ead0462e6648a843ab3a2b75ce8645fbc5b1cbbd44874eba0136b232b1436e126e6334277cbbcf2cebcd9d
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+#        WEB_SITE=http://www.example.com
+#         ENTERED=20100610
+#      LICENSE[0]=GPL
+#        KEYWORDS="example keywords"
+#           SHORT="this is a one-line brief description"
+#cat << EOF
+#Description that is wrapped to 80 columns or less.
+#EOF

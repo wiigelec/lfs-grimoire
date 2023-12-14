@@ -1,0 +1,22 @@
+            SPELL=dialog
+          VERSION=1.3-20231002
+#      PATCHLEVEL=1 # Optional if 0
+#  SECURITY_PATCH=0 # Optional if 0
+           SOURCE=${SPELL}-${VERSION}.tgz
+#         SOURCE2=${SOURCE}.asc
+    SOURCE_URL[0]=https://invisible-island.net/archives/${SPELL}/${SOURCE}
+#   SOURCE_URL[1]=http://backup.example.com/dir/misc/${SOURCE}
+#  SOURCE2_URL[0]=https://invisible-island.net/archives/${SPELL}/${SOURCE2}
+#  SOURCE2_URL[1]=http://backup.example.com/dir/misc/${SOURCE2}
+   SOURCE1_IGNORE=signature
+#  SOURCE2_IGNORE=signature
+#      SOURCE_GPG=dickey.gpg:$SOURCE2:UPSTREAM_KEY
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+#        WEB_SITE=http://www.example.com
+#         ENTERED=20100610
+#      LICENSE[0]=GPL
+#        KEYWORDS="example keywords"
+#           SHORT="this is a one-line brief description"
+#cat << EOF
+#Description that is wrapped to 80 columns or less.
+#EOF

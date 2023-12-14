@@ -4,10 +4,10 @@
 #
 ####################################################################
 
-depends man-pages-6.05.01
-depends iana-Etc-20230810
-depends glibc-2.38
-depends zlib-1.2.13
+depends man-pages
+depends iana-etc
+depends glibc
+depends zlib
 depends bzip2
 depends xz
 depends zstd

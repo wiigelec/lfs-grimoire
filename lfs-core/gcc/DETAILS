@@ -1,0 +1,7 @@
+            SPELL=gcc
+          VERSION=13.2.0
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://ftp.gnu.org/gnu/gcc/gcc-${VERSION}/${SOURCES}
+      SOURCE_HASH=md5:e0e48554cc6e4f261d55ddee9ab69075:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

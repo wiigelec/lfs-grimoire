@@ -1,0 +1,7 @@
+            SPELL=psmisc
+          VERSION=23.6
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://sourceforge.net/projects/psmisc/files/psmisc/${SOURCE}
+      SOURCE_HASH=md5:ed3206da1184ce9e82d607dc56c52633:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

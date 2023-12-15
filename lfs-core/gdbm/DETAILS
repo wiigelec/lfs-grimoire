@@ -1,0 +1,7 @@
+            SPELL=gdbm
+          VERSION=1.23
+           SOURCE=${SPELL}-${VERSION}.tar.gz
+    SOURCE_URL[0]=https://ftp.gnu.org/gnu/gdbm/${SOURCE}
+      SOURCE_HASH=md5:8551961e36bf8c70b7500d255d3658ec:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

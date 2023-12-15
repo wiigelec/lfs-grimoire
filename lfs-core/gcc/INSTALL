@@ -4,7 +4,7 @@
 #
 ####################################################################
 
-# boostratp install
+# COPY INSTALL
 message "cp -av ${SOURCE_DIRECTORY}.bld/* ${INSTALL_ROOT}/"
 cp -av ${SOURCE_DIRECTORY}.bld/* ${INSTALL_ROOT}/
 
@@ -41,3 +41,7 @@ ln -sfv ../../libexec/gcc/$(gcc -dumpmachine)/13.2.0/liblto_plugin.so \
 
 mkdir -pv /usr/share/gdb/auto-load/usr/lib
 mv -v /usr/lib/*gdb.py /usr/share/gdb/auto-load/usr/lib
+
+
+# CLEANUP
+rm_source_dir  $SOURCE_DIRECTORY.bld

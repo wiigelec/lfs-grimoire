@@ -1,0 +1,7 @@
+            SPELL=pkgconf
+          VERSION=2.0.1
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://distfiles.ariadne.space/pkgconf/${SOURCE}
+      SOURCE_HASH=md5:efc1318f368bb592aba6ebb18d9ff254:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

@@ -1,0 +1,7 @@
+            SPELL=ncurses
+          VERSION=6.4
+           SOURCE=${SPELL}-${VERSION}.tar.gz
+    SOURCE_URL[0]=https://invisible-mirror.net/archives/ncurses/${SOURCE}
+      SOURCE_HASH=md5:5a62487b5d4ac6b132fe2bf9f8fad29b:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

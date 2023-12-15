@@ -1,0 +1,7 @@
+            SPELL=grep
+          VERSION=3.11
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://ftp.gnu.org/gnu/grep/${SOURCE}
+      SOURCE_HASH=md5:7c9bbd74492131245f7cdb291fa142c0:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

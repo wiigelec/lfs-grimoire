@@ -1,0 +1,7 @@
+            SPELL=inetutils
+          VERSION=2.4
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://ftp.gnu.org/gnu/inetutils/${SOURCE}
+      SOURCE_HASH=md5:319d65bb5a6f1847c4810651f3b4ba74:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

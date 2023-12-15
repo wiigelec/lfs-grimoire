@@ -1,0 +1,7 @@
+            SPELL=libtool
+          VERSION=2.4.7
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://ftp.gnu.org/gnu/libtool/${SOURCE}
+      SOURCE_HASH=md5:2fc0b6ddcd66a89ed6e45db28fa44232:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

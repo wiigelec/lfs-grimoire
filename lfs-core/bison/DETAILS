@@ -1,0 +1,7 @@
+            SPELL=bison
+          VERSION=3.8.2
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://ftp.gnu.org/gnu/bison/${SOURCE}
+      SOURCE_HASH=md5:c28f119f405a2304ff0a7ccdcc629713:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

@@ -1,0 +1,7 @@
+            SPELL=expat
+          VERSION=2.5.0
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://prdownloads.sourceforge.net/expat/${SOURCE}
+      SOURCE_HASH=md5:ac6677b6d1b95d209ab697ce8b688704:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

@@ -1,0 +1,7 @@
+            SPELL=gettext
+          VERSION=0.22
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://ftp.gnu.org/gnu/gettext/gettext-0.22.tar.xz
+      SOURCE_HASH=md5:db2f3daf34fd5b85ab1a56f9033e42d1:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

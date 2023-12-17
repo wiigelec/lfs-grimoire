@@ -1,0 +1,7 @@
+            SPELL=less
+          VERSION=643
+           SOURCE=${SPELL}-${VERSION}.tar.gz
+    SOURCE_URL[0]=https://www.greenwoodsoftware.com/less/${SOURCE}
+      SOURCE_HASH=md5:cf05e2546a3729492b944b4874dd43dd:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

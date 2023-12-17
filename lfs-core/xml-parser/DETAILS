@@ -1,0 +1,7 @@
+            SPELL=xml-parser
+          VERSION=2.46
+           SOURCE=XML-Parser-${VERSION}.tar.gz
+    SOURCE_URL[0]=https://cpan.metacpan.org/authors/id/T/TO/TODDR/XML-Parser-${VERSION}.tar.gz
+      SOURCE_HASH=md5:80bb18a8e6240fcf7ec2f7b57601c170:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/XML-Parser-${VERSION}"
+          ENTERED=20231209

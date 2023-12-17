@@ -1,0 +1,7 @@
+            SPELL=perl
+          VERSION=5.38.0
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://www.cpan.org/src/5.0/${SOURCE}
+      SOURCE_HASH=md5:e1c8aaec897dd386c741f97eef9f2e87:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

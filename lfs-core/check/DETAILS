@@ -1,0 +1,7 @@
+            SPELL=check
+          VERSION=0.15.2
+           SOURCE=${SPELL}-${VERSION}.tar.gz
+    SOURCE_URL[0]=https://github.com/libcheck/check/releases/download/${VERSION}/${SOURCE}
+      SOURCE_HASH=md5:50fcafcecde5a380415b12e9c574e0b2:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

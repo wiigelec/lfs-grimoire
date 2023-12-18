@@ -1,0 +1,23 @@
+####################################################################
+#
+# LFS COMMANDS
+#
+####################################################################
+
+####################################################################
+# BUILD
+
+./configure --prefix=/usr                \
+            --disable-debuginfod         \
+            --enable-libdebuginfod=dummy
+
+make
+
+#make check
+
+####################################################################
+# INSTALL
+
+make -C libelf install
+install -vm644 config/libelf.pc /usr/lib/pkgconfig
+rm /usr/lib/libelf.a

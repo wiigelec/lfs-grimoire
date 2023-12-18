@@ -1,0 +1,20 @@
+####################################################################
+#
+#
+#
+####################################################################
+
+####################################################################
+# INSTALL
+
+ninja install
+
+#tar -xf ../../systemd-man-pages-254.tar.xz \
+#    --no-same-owner --strip-components=1   \
+#    -C /usr/share/man
+
+systemd-machine-id-setup
+
+systemctl preset-all
+
+systemctl disable systemd-sysupdate{,-reboot}

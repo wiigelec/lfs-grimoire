@@ -1,0 +1,7 @@
+            SPELL=systemd
+          VERSION=254
+           SOURCE=${SPELL}-${VERSION}.tar.gz
+    SOURCE_URL[0]=https://github.com/systemd/systemd/archive/v${VERSION}/${SOURCE}
+      SOURCE_HASH=md5:0d266e5361dc72097b6c18cfde1c0001:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

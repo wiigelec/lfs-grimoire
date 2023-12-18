@@ -1,0 +1,7 @@
+            SPELL=ninja
+          VERSION=1.11.1
+           SOURCE=${SPELL}-${VERSION}.tar.gz
+    SOURCE_URL[0]=https://github.com/ninja-build/ninja/archive/v${VERSION}/${SOURCE}
+      SOURCE_HASH=md5:32151c08211d7ca3c1d832064f6939b0:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

@@ -1,0 +1,10 @@
+            SPELL=coreutils
+          VERSION=9.3
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://ftp.gnu.org/gnu/coreutils/${SOURCE}
+      SOURCE_HASH=md5:040b4b7acaf89499834bfc79609af29f:UPSTREAM_HASH
+          SOURCE1=coreutils-9.3-i18n-1.patch
+   SOURCE_URL1[0]=https://www.linuxfromscratch.org/patches/lfs/12.0/${SOURCE1}
+     SOURCE_HASH1=md5:3c6340b3ddd62f4acdf8d3caa6fad6b0:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

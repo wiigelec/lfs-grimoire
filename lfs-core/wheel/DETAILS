@@ -1,0 +1,7 @@
+            SPELL=wheel
+          VERSION=0.41.1
+           SOURCE=${SPELL}-${VERSION}.tar.gz
+    SOURCE_URL[0]=https://pypi.org/packages/source/w/wheel/${SOURCE}
+      SOURCE_HASH=md5:181cb3f4d8ed340c904a0e1c416d341d:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

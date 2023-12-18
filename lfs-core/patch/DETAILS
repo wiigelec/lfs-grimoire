@@ -1,0 +1,7 @@
+            SPELL=patch
+          VERSION=2.7.6
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://ftp.gnu.org/gnu/patch/${SOURCE}
+      SOURCE_HASH=md5:78ad9937e4caadcba1526ef1853730d5:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

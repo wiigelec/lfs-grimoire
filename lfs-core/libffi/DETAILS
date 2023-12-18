@@ -1,0 +1,7 @@
+            SPELL=libffi
+          VERSION=3.4.4
+           SOURCE=${SPELL}-${VERSION}.tar.gz
+    SOURCE_URL[0]=https://github.com/libffi/libffi/releases/download/v${VERSION}/${SOURCE}
+      SOURCE_HASH=md5:0da1a5ed7786ac12dcbaf0d499d8a049:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

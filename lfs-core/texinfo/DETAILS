@@ -1,0 +1,7 @@
+            SPELL=texinfo
+          VERSION=7.0.3
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://ftp.gnu.org/gnu/texinfo/${SOURCE}
+      SOURCE_HASH=md5:37bf94fd255729a14d4ea3dda119f81a:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

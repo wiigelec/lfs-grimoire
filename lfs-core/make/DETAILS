@@ -1,0 +1,7 @@
+            SPELL=make
+          VERSION=4.4.1
+           SOURCE=${SPELL}-${VERSION}.tar.gz
+    SOURCE_URL[0]=https://ftp.gnu.org/gnu/make/${SOURCE}
+      SOURCE_HASH=md5:c8469a3713cbbe04d955d4ae4be23eeb:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

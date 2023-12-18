@@ -1,0 +1,7 @@
+            SPELL=procps-ng
+          VERSION=4.0.3
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://sourceforge.net/projects/procps-ng/files/Production/${SOURCE}
+      SOURCE_HASH=md5:22b287bcd758831cbaf3356cd3054fe7:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

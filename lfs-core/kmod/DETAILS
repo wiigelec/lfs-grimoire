@@ -1,0 +1,7 @@
+            SPELL=kmod
+          VERSION=30
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://www.kernel.org/pub/linux/utils/kernel/kmod/${SOURCE}
+      SOURCE_HASH=md5:85202f0740a75eb52f2163c776f9b564:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

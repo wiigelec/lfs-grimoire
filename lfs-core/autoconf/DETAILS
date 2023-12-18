@@ -1,0 +1,7 @@
+            SPELL=autoconf
+          VERSION=2.71
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://ftp.gnu.org/gnu/autoconf/${SOURCE}
+      SOURCE_HASH=md5:12cfa1687ffa2606337efe1a64416106:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

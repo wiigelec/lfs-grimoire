@@ -1,0 +1,7 @@
+            SPELL=tar
+          VERSION=1.35
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://ftp.gnu.org/gnu/tar/${SOURCE}
+      SOURCE_HASH=md5:a2d8042658cfd8ea939e6d911eaf4152:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

@@ -1,0 +1,7 @@
+            SPELL=iproute2
+          VERSION=6.4.0
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://www.kernel.org/pub/linux/utils/net/iproute2/${SOURCE}
+      SOURCE_HASH=md5:90ce0eb84a8f1e2b14ffa77e8eb3f5ed:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

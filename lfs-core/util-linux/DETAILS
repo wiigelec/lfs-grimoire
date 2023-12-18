@@ -1,0 +1,7 @@
+            SPELL=util-linux
+          VERSION=2.39.1
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://www.kernel.org/pub/linux/utils/util-linux/v2.39/${SOURCE}
+      SOURCE_HASH=md5:c542cd7c0726254e4b3006a9b428201a:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

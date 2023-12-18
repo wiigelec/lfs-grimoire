@@ -1,0 +1,29 @@
+####################################################################
+#
+#
+#
+####################################################################
+
+default_pre_build
+cd "$SOURCE_DIRECTORY"
+
+make mrproper
+
+make defconfig
+
+if [ -f /boot/config-6.4.12 ]; then
+    cp -av /boot/config-6.4.12 ./.config
+    make oldconfig
+fi
+
+MENUCONFIG_EXIT="n" &&
+while [[ "$MENUCONFIG_EXIT" == "n" ]]
+do
+    make menuconfig &&
+    if query "Do you really want to exit menuconfig?" y 
+    then
+        MENUCONFIG_EXIT="y" 
+    else
+        MENUCONFIG_EXIT="n"
+    fi
+done

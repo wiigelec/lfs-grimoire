@@ -1,0 +1,7 @@
+            SPELL=python3
+          VERSION=3.11.4
+           SOURCE=Python-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://www.python.org/ftp/python/${VERSION}/${SOURCE}
+      SOURCE_HASH=md5:fb7f7eae520285788449d569e45b6718:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/Python-${VERSION}"
+          ENTERED=20231209

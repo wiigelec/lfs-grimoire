@@ -1,0 +1,7 @@
+            SPELL=gawk
+          VERSION=5.2.2
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://ftp.gnu.org/gnu/gawk/${SOURCE}
+      SOURCE_HASH=md5:d63b4de2c722cbd9b8cc8e6f14d78a1e:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

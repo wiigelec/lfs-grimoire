@@ -1,0 +1,7 @@
+            SPELL=meson
+          VERSION=1.2.1
+           SOURCE=${SPELL}-${VERSION}.tar.gz
+    SOURCE_URL[0]=https://github.com/mesonbuild/meson/releases/download/${VERSION}/${SOURCE}
+      SOURCE_HASH=md5:e3cc846536189aacd7d01858a45ca9af:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

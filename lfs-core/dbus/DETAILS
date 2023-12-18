@@ -1,0 +1,7 @@
+            SPELL=dbus
+          VERSION=1.14.8
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://dbus.freedesktop.org/releases/dbus/${SOURCE}
+      SOURCE_HASH=md5:da42f55aeec51b355587bc3062fc2d41:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

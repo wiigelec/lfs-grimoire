@@ -1,0 +1,7 @@
+            SPELL=e2fsprogs
+          VERSION=1.47.0
+           SOURCE=${SPELL}-${VERSION}.tar.gz
+    SOURCE_URL[0]=https://downloads.sourceforge.net/project/e2fsprogs/e2fsprogs/v${VERSION}/${SOURCE}
+      SOURCE_HASH=md5:6b4f18a33873623041857b4963641ee9:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

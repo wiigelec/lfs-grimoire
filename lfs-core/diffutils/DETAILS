@@ -1,0 +1,7 @@
+            SPELL=diffutils
+          VERSION=3.10
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://ftp.gnu.org/gnu/diffutils/${SOURCE}
+      SOURCE_HASH=md5:2745c50f6f4e395e7b7d52f902d075bf:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

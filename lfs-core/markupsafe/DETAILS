@@ -1,0 +1,7 @@
+            SPELL=markupsafe
+          VERSION=2.1.3
+           SOURCE=MarkupSafe-${VERSION}.tar.gz
+    SOURCE_URL[0]=https://pypi.org/packages/source/M/MarkupSafe/${SOURCE}
+      SOURCE_HASH=md5:ca33f119bd0551ce15837f58bb180214:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/MarkupSafe-${VERSION}"
+          ENTERED=20231209

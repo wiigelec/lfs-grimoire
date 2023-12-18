@@ -1,0 +1,7 @@
+            SPELL=groff
+          VERSION=1.23.0
+           SOURCE=${SPELL}-${VERSION}.tar.gz
+    SOURCE_URL[0]=https://ftp.gnu.org/gnu/groff/${SOURCE}
+      SOURCE_HASH=md5:5e4f40315a22bb8a158748e7d5094c7d:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

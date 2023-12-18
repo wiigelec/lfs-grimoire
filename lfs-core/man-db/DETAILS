@@ -1,0 +1,7 @@
+            SPELL=man-db
+          VERSION=2.11.2
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://download.savannah.gnu.org/releases/man-db/${SOURCE}
+      SOURCE_HASH=md5:a7d59fb2df6158c44f8f7009dcc6d875:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

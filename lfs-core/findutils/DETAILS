@@ -1,0 +1,7 @@
+            SPELL=findutils
+          VERSION=4.9.0
+           SOURCE=${SPELL}-${VERSION}.tar.xz
+    SOURCE_URL[0]=https://ftp.gnu.org/gnu/findutils/${SOURCE}
+      SOURCE_HASH=md5:4a4a547e888a944b2f3af31d789a1137:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

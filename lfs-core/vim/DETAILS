@@ -1,0 +1,7 @@
+            SPELL=vim
+          VERSION=9.0.1677
+           SOURCE=${SPELL}-${VERSION}.tar.gz
+    SOURCE_URL[0]=https://anduin.linuxfromscratch.org/LFS/${SOURCE}
+      SOURCE_HASH=md5:65e6b09ef0628a2d8eba79f1d1d5a564:UPSTREAM_HASH
+ SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
+          ENTERED=20231209

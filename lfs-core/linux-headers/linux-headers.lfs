@@ -1,0 +1,18 @@
+
+# Start of LFS book script
+
+####################################################################
+# BUILD
+
+make mrproper
+make headers
+
+
+####################################################################
+# INSTALL
+
+find usr/include -type f ! -name '*.h' -delete
+
+cp -rv usr/include $LFS/usr
+
+# End of LFS book script

@@ -3,8 +3,8 @@
            SOURCE=${SPELL}-${VERSION}.tar.gz
           SOURCE2=bzip2-1.0.8-install_docs-1.patch
     SOURCE_URL[0]=https://www.sourceware.org/pub/${SPELL}/${SOURCE}
-   SOURCE_URL2[0]=https://www.linuxfromscratch.org/patches/lfs/12.0/${SOURCE2}
+   SOURCE2_URL[0]=https://www.linuxfromscratch.org/patches/lfs/12.0/${SOURCE2}
       SOURCE_HASH=md5:67e051268d0c475ea773822f7500d0e5:UPSTREAM_HASH
-     SOURCE_HASH2=md5:6a5ac7e89b791aae556de0f745916f7f:UPSTREAM_HASH
+     SOURCE2_HASH=md5:6a5ac7e89b791aae556de0f745916f7f:UPSTREAM_HASH
  SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
           ENTERED=20231209

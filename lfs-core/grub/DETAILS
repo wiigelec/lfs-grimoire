@@ -3,8 +3,8 @@
            SOURCE=${SPELL}-${VERSION}.tar.xz
     SOURCE_URL[0]=https://ftp.gnu.org/gnu/grub/${SOURCE}
       SOURCE_HASH=md5:cf0fd928b1e5479c8108ee52cb114363:UPSTREAM_HASH
-          SOURCE1=grub-2.06-upstream_fixes-1.patch
-   SOURCE_URL1[0]=https://www.linuxfromscratch.org/patches/lfs/12.0/${SOURCE1}
-     SOURCE_HASH1=md5:da388905710bb4cbfbc7bd7346ff9174:UPSTREAM_HASH
+          SOURCE2=grub-2.06-upstream_fixes-1.patch
+   SOURCE2_URL[0]=https://www.linuxfromscratch.org/patches/lfs/12.0/${SOURCE1}
+     SOURCE2_HASH=md5:da388905710bb4cbfbc7bd7346ff9174:UPSTREAM_HASH
  SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
           ENTERED=20231209

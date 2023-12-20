@@ -1,7 +1,7 @@
             SPELL=libcap
           VERSION=2.69
            SOURCE=${SPELL}-${VERSION}.tar.xz
-    SOURCE_URL[0]=https://www.kernel.org/pub/linux/libs/security/linux-privs/$SPELL}2/${SOURCE}
+    SOURCE_URL[0]=https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/${SOURCE}
       SOURCE_HASH=md5:4667bacb837f9ac4adb4a1a0266f4b65:UPSTREAM_HASH
  SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-${VERSION}"
           ENTERED=20231209

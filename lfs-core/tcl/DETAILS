@@ -3,8 +3,8 @@
            SOURCE=${SPELL}${VERSION}-src.tar.gz
           SOURCE2=${SPELL}${VERSION}-html.tar.gz
     SOURCE_URL[0]=https://downloads.sourceforge.net/${SPELL}/${SOURCE}
-   SOURCE_URL2[0]=https://downloads.sourceforge.net/${SPELL}/${SOURCE}
+   SOURCE2_URL[0]=https://downloads.sourceforge.net/${SPELL}/${SOURCE}
       SOURCE_HASH=md5:0e4358aade2f5db8a8b6f2f6d9481ec2:UPSTREAM_HASH
-     SOURCE_HASH2=md5:4452f2f6d557f5598cca17b786d6eb68:UPSTREAM_HASH
+     SOURCE2_HASH=md5:4452f2f6d557f5598cca17b786d6eb68:UPSTREAM_HASH
  SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}${VERSION}"
           ENTERED=20231209

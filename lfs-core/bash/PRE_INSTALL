@@ -6,4 +6,4 @@
 
 default_pre_install
 
-cp -ar ${SOURCE_DIRECTORY}.bld/usr/bin/bash ${INSTALL_ROOT}/usr/bin
+cp -afv ${SOURCE_DIRECTORY}.bld/usr/bin/bash ${INSTALL_ROOT}/usr/bin

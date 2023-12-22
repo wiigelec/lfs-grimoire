@@ -64,3 +64,9 @@ cat > /etc/ld.so.conf << "EOF"
 /opt/lib
 
 EOF
+
+
+# pull in an alien file
+if [ -f /usr/include/gnu/stubs-64.h ]; then 
+    touch /usr/include/gnu/stubs-64.h
+fi
